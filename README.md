@@ -1,3 +1,3 @@
 # Login-page
 
-Login page: HTML, CSS, JavaScript.
+Login form: HTML, CSS, JavaScript.
