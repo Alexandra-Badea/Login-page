@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body id="body">
+    <h2>Login Form</h2>
+
+    <button type="button" id="login" class="btn_form">Login</button>
+    
+    <div id="show_form" class="container-form">
+        <form class="animate" action="action_page.php" method="post">
+            <div class="container">
+                <span class="btn btn_close" id="btn_close" title="Close">&times;</span>
+    
+                <div class="avatar">
+                    <img src="images/user.png" alt="image avatar">
+                </div>
+        
+                <label for="username"><b>Username</b></label>
+                <input type="text" id="username" name="username" placeholder="Enter Username" required>
+        
+                <label for="psw"><b>Password</b></label>
+                <input type="password" id= "psw" name="password" placeholder="Enter Password" required>
+        
+                <button type="submit" class="btn_login">Login</button>
+        
+                <input type="checkbox" id="remember" checked="checked" name="remember">
+                <label for="remember">Remember me</label>
+            </div>
+    
+            <div class="footer">
+                <button type="button" id="btn_cancel" class="btn btn_cancel">Cancel</button>
+                <span class="f_psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
